@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images\Yashraj.png" type="image" />
+    <title>Yashraj's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c04eb87018.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c04eb87018.css" crossorigin="anonymous">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images\Yashraj.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times"onclick ="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div id="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I am <span>Yashraj</span> <br> Oza from India</h1>
+        </div>
+    </div>
+</div> 
+<!-- --------about ---------->
+<div id="about">
+   <div class="container">
+    <div class="row">
+        <div class="about-col-1"><img src="images\1234567890.jpeg" ></div>
+        <div class="about-col-1">
+            <h1 class="sub-title">
+            About Me
+        </h1>
+        <p>I am an aspiring web developer with a strong desire to learn and grow in this field. I possess good communication skills, which I believe are essential
+            for working collaboratively with teams and delivering projects effectively. I am always eager to expand my knowledge and skill set, and I actively
+            seek out new challenges and opportunities to learn.</p>
+        <div class="tab-tiles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Web Developer</span><br>Design Websites Using HTMl,CSS,Javascript in Frontend and NodeJS, ExpressJs, MongoDB in backend</li>
+                <li><span>Machine Learning</span><br> Intern at KMITL, Thailand</li>
+                <li><span>Event Management </span><br>Managed 5 Mega Events of College which include TEDxJSPMRSCOE, GDSC's TECH I/O etc </li>
+                
+            </ul>
+        </div>
+        <div class="tab-contents" id="Experience">
+            <ul>
+                <li><span>TEDxJSPMRSCOE</span><br>Head Executive Producer</li>
+                <li><span>Training and Placement Executive</span><br> Connected with HRs</li>
+                <li><span>SAMAVAYA - HR meet</span><br> Handeld all Technical Work </li>
+                <li><span>Google Developer Student Clubs </span><br> Volunteered TECH I/O</li>
+                <li><span>Rotaract District 3131</span><br>Web co-ordinator for district Pune,Panvel and Raigad</li>
+                
+            </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+            <ul>
+                <li><span>JSPM's Rajarshi Shahu College Of Engineering</span><br>B Tech In Computer Engineering</li>
+                <li><span>Ghonse Maths Academy</span><br>HSC - 93.98% in MHT-CET</li>
+                <li><span>Carmel Convent School</span><br>90.20% in SSC</li>
+            </ul>
+        </div>
+    </div>   
+    </div>
+    </div>
+   </div> 
+</div>
+<!--------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">
+           My Services
+        </h1>
+        <div class="services-list">
+<div>
+<i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>I specialize in web design using Canva, a powerful graphic design tool. With Canva's intuitive interface and extensive library of templates, 
+        elements, and fonts, I create visually appealing and user-friendly web designs for individuals and businesses.</p>
+    <a href="#">Learn More</a>
+</div>
+<div> 
+    <i class="fa-solid fa-crop"></i>
+    <h2>Web development</h2>
+    <p>As a fullstack Web developer i develop websites using HTMl,CSS, Javascript , React JS, Node jS, Express JS, MongoDB, SQL etc</p>
+    <a href="#">Learn More</a>
+</div>
+<!--<div>
+    <i class="fa-brands fa-app-store"></i>
+    <h2></h2>
+    <p></p>
+    <a href="#">Learn More</a>
+</div>-->
+        </div>
+    </div>
+</div>
+<!-----------------Portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+    </div>
+    <div class="work-list">
+<div class="Work">
+    <img src="images\work-1.png">
+    <div class="layer">
+        <h3>Buzz Hub - Social Media App</h3>
+        <p>a social media web application, powered by React.js on the frontend and Firebase.js on the backend, provides users with the ability to effortlessly
+            share images accompanied by captions</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+<div class="Work">
+    <img src="images\work-2.png">
+    <div class="layer">
+        <h3>Chatter - Realtime chat application</h3>
+        <p>TI have developed a web application that facilitates seamless communication between users. The frontend of the application is built using React.js,
+            while the backend leverages the power of Node.js, Express.js, and MongoDB. Additionally, I have integrated the Pusher API to enhance the real-time
+            messaging experience</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+<div class="Work">
+    <img src="images\work-3.png">
+    <div class="layer">
+        <h3> District 3131 Website</h3>
+        <p>Created a fully-fledged site along with dashboard so that more than 150+ clubs should report its events at a time
+            Used HTML CSS React js along with C# and Nodejs
+            </p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+<!--contact-->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>yashojha05@gmail.com</p>
+        <p><i class="fa-sharp fa-solid fa-phone"></i>7972843548</p>
+        <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/yashraj-oza-463005161/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images\Yashraj 123.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email"name ="Email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit"class="btn btn2" >Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright <i class="fa-regular fa-copyright"></i> Yashraj.Created with <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0px";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbymbgkblt3I5jRWMgBvxVo2G5troCKeHRcMBViMUwfZxHRlAvJZkJqMY0XHMX_12pAFsA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
